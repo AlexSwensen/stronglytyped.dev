@@ -37,13 +37,21 @@ function Bio() {
                 borderRadius: `50%`,
               }}
             />
-            <p>
-              Written by <strong>{author}</strong> who lives and works in Nashville, TN building useful things.
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
-            </p>
+            <div>
+              <p style={{marginBottom: 5}}>
+                Written by <strong>{author}</strong> who lives and works in Nashville, TN building useful things.
+                {` `}
+                <a target="_blank" href={`https://twitter.com/${social.twitter}`}>
+                  You should follow him on Twitter
+                </a>
+              </p>
+              <p style={{
+                fontSize: 10
+
+              }}>
+                I have a lot of strong opinions on a lot of subjects. I encourage others to explore ideas and have their own opinions. It should be noted, however, that this blog reflects my own opinions and views, and not those of my employer.
+              </p>
+            </div>
           </div>
         )
       }}

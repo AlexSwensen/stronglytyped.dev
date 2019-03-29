@@ -20,6 +20,7 @@ class Layout extends React.Component {
         >
           <Link
             style={{
+              ...scale(0.8),
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,

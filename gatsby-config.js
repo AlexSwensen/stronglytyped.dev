@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `StronglyTyped Developer`,
+    title: `StronglyTyped`,
     author: `Alexander Swensen`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://stronglytyped.dev/`,
@@ -57,7 +57,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `StronglyTyped Developer`,
+        name: `StronglyTyped`,
         short_name: `StronglyTyped`,
         start_url: `/`,
         background_color: `#ffffff`,
